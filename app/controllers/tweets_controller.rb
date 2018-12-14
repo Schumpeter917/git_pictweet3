@@ -1,5 +1,5 @@
 class TweetsController < ApplicationController
   def index
-    @tweet = "次はiPhoneアプリが作りたい"
+    @tweet = Tweet.all
   end
 end
